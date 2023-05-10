@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Hotdog or Not!-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HotDog_or_Not_" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <constraint firstItem="lGi-vE-iyq" firstAttribute="top" secondItem="2bb-fI-rJ4" secondAttribute="top" id="h2D-ed-Vuc"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="IYf-RN-QT5">
+                    <navigationItem key="navigationItem" title="Hotdog or Not!" id="IYf-RN-QT5">
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="oBg-hc-dAI">
                             <connections>
                                 <action selector="cameraTapped:" destination="BYZ-38-t0r" id="FK0-qn-UdQ"/>
@@ -53,6 +53,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="K2c-RB-puh">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
